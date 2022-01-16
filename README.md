@@ -19,8 +19,13 @@ And Chrome driver is needed to provide a browser, just in [chromedriver director
 ## Parameters Explain
 
 **--in_file/-i**: File list of search based images
+
 **--out_path/-o**: Path of downloaded images to restore
+
 **--jobs/-j**: Use Number of processes, if 0, means using main process only, its useful while want to debug program
+
 **--num_of_images/-n**: Max number of images crawling per base image, 0 represent crawl as much similar images as possible
+
 **--execution_path/-x**: Path of Chrome driver, default is "./chromedriver/chromedriver_linux", you need to change this parameter if not using Linux, or you want to have another chrome driver path
+
 **--proxy_server/-p**: Proxy server for Chrome flag
