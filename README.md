@@ -13,7 +13,7 @@ And Chrome driver is needed to provide a browser, just in [chromedriver director
 
 1. First, prepare your images to be search, as for the [example images](./example/base_images)
 2. Make an images list, as for [example images list](./example/search_images_list.txt), notice that all image paths in list must be absolute path, and you need to create your own image list (for linux, you can just run `find $(pwd)/example/base_images/ -type f > example/search_images_list.txt`)
-3. Run `python crawl_by_image.py -i example/search_images_list.txt -o example/images_out -j 2 -n 0 -x chromedriver/chromedriver_list -p socks5://127.0.0.1:10888`
+3. Run `python crawl_by_image.py -i example/search_images_list.txt -o example/images_out -j 2 -n 0 -x chromedriver/chromedriver_list`
 4. You can find search result images under "example/images_out/" directory, each search based image if named as "base_img.&lt;ext&gt;" under the same directory with other crawling images
 
 ## Parameters Explain
