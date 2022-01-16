@@ -1,0 +1,5 @@
+/home/cbw233/src/tools/CrawlerByImage/example/base_images/Cat.jpg
+/home/cbw233/src/tools/CrawlerByImage/example/base_images/Bird.jpg
+/home/cbw233/src/tools/CrawlerByImage/example/base_images/Dolphin.jpg
+/home/cbw233/src/tools/CrawlerByImage/example/base_images/Dog.jpg
+/home/cbw233/src/tools/CrawlerByImage/example/base_images/Elephant.jpg
